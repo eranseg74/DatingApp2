@@ -16,7 +16,7 @@ builder.Services.AddCors();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline. Order is important!!!!
+// Configure the HTTP request pipeline. Order is important (after the builder.Build())!!!!
 app.UseCors(corsPolicyBuilder => corsPolicyBuilder.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200", "https://localhost:4200"));
 
 app.MapControllers();
