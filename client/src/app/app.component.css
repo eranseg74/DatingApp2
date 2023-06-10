@@ -1,3 +1,8 @@
 .container-fluid {
-    margin: 100px 0 90px 0;
+    margin: 90px 100px;
+    width: 92%;
+}
+
+h3 {
+    margin-top: 100px;
 }

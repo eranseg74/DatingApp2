@@ -1,4 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin-right: 100px;
+}
+
 .tab-panel {
     border: 1px solid #ddd;
     padding: 10px;
